@@ -1,0 +1,30 @@
+dark_theme:
+  type: bool
+  default: false
+  description:
+    en: 'Select for use with a Dark Color Palette.'
+post_border_color:
+  type: string
+  default: "#D5D5D5"
+  description:
+    en: 'Custom border color between posts. Dark Color Palette option above must NOT be selected.'
+embedded_post_border_color:
+  type: string
+  default: "#C5C5C5"
+  description:
+    en: 'Custom border color around embedded posts. Dark Color Palette option above must NOT be selected.'        
+large_avatar:
+  type: bool
+  default: false
+  description:
+    en: 'Select for use with large (90px vs 45px) avatars on screens > 767px'
+reminder_message: 
+  type: bool
+  default: false
+  description:
+    en: 'Show dismissible reminder message below header to users using Mobile View to switch to Desktop View. Sets a cookie when dismissed to silence for 30 days.' 
+message_color: 
+  type: string
+  default: "#FFFFFF"
+  description:
+    en: 'Text color of the message. Default is White. The Background color is the Danger color from your palette'
